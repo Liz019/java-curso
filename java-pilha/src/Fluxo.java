@@ -14,13 +14,13 @@ public class Fluxo {
 
 	}
 	
-	public static void metodo1() {
+	public static void metodo1() throws MyException {
 		System.out.println("Ini do metodo1");
 		metodo2();
 		System.out.println("fim do metodo1");
 	}
 	
-	public static void metodo2() {
+	public static void metodo2() throws MyException {
 		System.out.println("Ini do metodo2");
 
 		throw new MyException("erro");
