@@ -10,7 +10,8 @@ public class TesteString {
 		
 //		String vazio = "   Liz   ";
 //		String outrovazio = vazio.trim();
-//		
+//		System.out.println(outrovazio.isEmpty());
+		
 //		System.out.println(vazio.contains("Li"));
 //		System.out.println(outrovazio);
 //		
