@@ -4,14 +4,18 @@ public class TesteString {
 
 	public static void main(String[] args) {
 
-		String vazio = "   Liz   ";
-		String outrovazio = vazio.trim();
+        String nome = "Mario";
+        String outronome = nome.replace('o', 'a');
+        System.out.println(outronome);
 		
-		System.out.println(vazio.contains("Li"));
-		System.out.println(outrovazio);
-		
-	
-		String nome = "Liz";
+//		String vazio = "   Liz   ";
+//		String outrovazio = vazio.trim();
+//		
+//		System.out.println(vazio.contains("Li"));
+//		System.out.println(outrovazio);
+//		
+//	
+//		String nome = "Liz";
 //		String nome = new String("Liz");
 
 //		System.out.println(nome.length());
