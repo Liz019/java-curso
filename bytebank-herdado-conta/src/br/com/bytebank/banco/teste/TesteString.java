@@ -4,14 +4,40 @@ public class TesteString {
 
 	public static void main(String[] args) {
 
+		String vazio = "   Liz   ";
+		String outrovazio = vazio.trim();
+		
+		System.out.println(vazio.contains("Li"));
+		System.out.println(outrovazio);
+		
+	
 		String nome = "Liz";
+//		String nome = new String("Liz");
+
+//		System.out.println(nome.length());
+//		
+//		for(int i = 0; i < nome.length(); i++) {
+//			System.out.println(nome.charAt(i));
+//		}
 		
-//		String outra = nome.replace("L", "l");
+//		String sub = nome.substring(1);
+//		System.out.println(sub);
 		
-		String outra = nome.toLowerCase();
+//		int pos = nome.indexOf("iz");
+//		System.out.println(pos);
 		
-		System.out.println(nome);
-		System.out.println(outra);
+//		char c = nome.charAt(0);
+//		System.out.println(c);
+		
+//		char c = 'L';
+//		char d = 'l';
+//		String outra = nome.replace(c, d);
+		
+//		String outra = nome.toLowerCase();
+//		String outra = nome.toUpperCase();
+		
+//		System.out.println(nome);
+//		System.out.println(outra);
 		
 	}
 
